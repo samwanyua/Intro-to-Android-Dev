@@ -1,7 +1,7 @@
 // Global variables
 val role: String = "Mobile Developer";
 
-var greeting: String = "Hello"
+var greeting: String = "Hello user"
 
 fun main() {
     //    Variables
@@ -54,6 +54,16 @@ fun main() {
         null -> println("You are okay")
         else -> println("Not paid")
     }
+
+    val greetingToPrint = if(greeting !=null) greeting else "Jambo"
+    println(greetingToPrint)
+
+    val printGreeting = when(greeting){
+        null -> "Hi User"
+        else -> greeting
+    }
+
+    println(printGreeting)
 
 
 
