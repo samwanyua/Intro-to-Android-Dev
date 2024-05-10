@@ -30,6 +30,24 @@ fun main() {
     println(profileStatus);
     println(role)
 
+//    //    Variables
+//    mutable variables - can be reassigned
+//    Read only variables - can't be assigned
+//
+//    Types
+    /*
+    You can still do this:
+        val name = "George";
+     */
+// control flow
+    var feeStatus: String = "Ken"
+
+    if (feeStatus != null){
+        println(feeStatus +  " your fees is paid")
+    }
+    else{
+        println("You haven't paid")
+    }
 
 
 
