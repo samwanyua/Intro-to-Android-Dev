@@ -49,6 +49,12 @@ fun main() {
         println("You haven't paid")
     }
 
+//    when statement
+    when(feeStatus){
+        null -> println("You are okay")
+        else -> println("Not paid")
+    }
+
 
 
 }
