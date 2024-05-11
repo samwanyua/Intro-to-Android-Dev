@@ -14,6 +14,28 @@ fun main() {
     val trueFalse = false // boolean
     val singleCharacter = 'a' //character
 
+//    Arithmetic
+    val xy = 3 * 4
+    val e = 3f / 4f
+    val u = 10 % 3
+    println("The result is $xy")
+    println("The result is $e")
+    println("The result is $u")
+
+//  Logic and comparison operator
+    val adult = true
+    val programmer = true
+    val adultProgrammer = adult && programmer
+    println(adultProgrammer) // true
+    val eitherAdultProgrammer = adult || programmer
+    println(eitherAdultProgrammer) // true
+
+    val great = (adult == programmer)
+    println(great)
+
+    val there = (adult != programmer)
+    println(there)
+
 
 
 }
