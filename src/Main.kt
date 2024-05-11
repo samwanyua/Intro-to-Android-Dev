@@ -57,7 +57,46 @@ fun main() {
     println(gfs)
 
 //    Null values - null safety
-    val r: 
+//    Type is not nullable by default
+
+   /* val r: Int? = null
+    val num1 = readLine() ?: "0"
+    val num2 = readLine() ?: "0"
+
+    // Convert input strings to integers, using 0 as default if input is null or not a valid integer
+    val intNum1 = num1.toIntOrNull() ?: 0
+    val intNum2 = num2.toIntOrNull() ?: 0
+
+    val res = intNum1 + intNum2
+    println(res)
+
+    */
+
+//    List
+//    This is an immutable list - you can't modify it
+    val shoppingList = listOf<String>("Banana", "Apple", "Grapes")
+    println(shoppingList[2])
+
+//    Mutable list
+    val cars = mutableListOf("BMW", "Ford","Volkswagen","Benz")
+    cars.add("Jeep") // add an item
+
+//   While loops
+    var counter = 0
+    while (counter < cars.size){
+        println(cars[counter])
+        counter ++
+    }
+
+//    For loop
+    for (shoppingItem in shoppingList){
+        println(shoppingItem)
+    }
+
+    for (i in 1..100){
+        println(i)
+    }
+
 
 
 
