@@ -36,6 +36,32 @@ fun main() {
     val there = (adult != programmer)
     println(there)
 
+//    Strings
+    val product = "Kotlin"
+    println(product.toUpperCase())
+    println(product.toLowerCase())
+
+//    if conditions
+    val xt = 1 + 1
+    if (xt == 2){
+        println("xt is 2")
+    }
+    else if(xt == 3){
+        println("xt is 3")
+    }
+    else{
+        println("xt is not 2 or 3")
+    }
+
+    val gfs = if(xt == 2) 2 else 3
+    println(gfs)
+
+//    Null values - null safety
+    val r: 
+
+
+
+
 
 
 }
