@@ -7,7 +7,7 @@ fun main() {
     x = 56;
     println("The value of x is $x")
 
-//    Types
+//   Data Types
     val bigNumber = 324L // this is a long - 64 bit
     val doubleNumber = 32.234 // double - more precision
     val floatNumber = 23.343f // float
