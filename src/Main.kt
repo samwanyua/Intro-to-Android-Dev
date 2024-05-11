@@ -97,6 +97,15 @@ fun main() {
         println(i)
     }
 
+    val w = 31
+    when(w){
+        in 1..10 -> println("w is in the range of 1 to 10")
+        in 11..20 -> println("w is in the range of 11 to 20")
+        else -> {
+            println("w is out of range")
+        }
+    }
+
 
 
 
