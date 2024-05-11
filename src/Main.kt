@@ -12,4 +12,15 @@ fun main() {
         }
     }
 
+//    Try and catch
+    val number = readlnOrNull() ?: "0"
+    val parsedNum = try {
+        number.toInt()
+    } catch (e: Exception){
+        0
+    }
+    println(parsedNum)
+
+
+
 }
