@@ -6,7 +6,7 @@ fun main() {
     println(langCount)
 }
 // Extension function
-fun List<String>.customCount(function: (String) -> Boolean): Int{
+fun <T>List<T>.customCount(function: (T) -> Boolean): Int{
     var counter = 0
     for (string in this){
         if(function(string)){
