@@ -1,5 +1,5 @@
 class Dog: Animal("Jimmy") {
-    fun bark(){
+    override fun makeSound() {
         println("Woof!")
     }
 }
